@@ -63,4 +63,5 @@ if st.button("Prediksi Harga Rumah"):
 
     prediction = model.predict(input_data)
 
+
     st.success(f"Perkiraan harga rumah: ${prediction[0]:,.2f}")
